@@ -4,15 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/container_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601">
+
+        <ImageButton
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="250dp"
+            android:elevation="10dp"
+            android:background="@drawable/img"
+            app:layout_constraintBottom_toBottomOf="@+id/card_view"
+            app:layout_constraintEnd_toEndOf="@+id/card_view"
+            app:layout_constraintStart_toStartOf="@+id/card_view"
+            app:layout_constraintTop_toTopOf="@+id/card_view" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:elevation="10dp"
+        android:src="@drawable/logos"
+        app:layout_constraintBottom_toBottomOf="@+id/c1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

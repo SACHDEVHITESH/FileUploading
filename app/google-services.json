@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681762293476",
+    "firebase_url": "https://fileuploading-ed38d.firebaseio.com",
+    "project_id": "fileuploading-ed38d",
+    "storage_bucket": "fileuploading-ed38d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681762293476:android:aa5562fdfeb870a773cef1",
+        "android_client_info": {
+          "package_name": "com.hitesh.fileuploading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681762293476-gb7atlpj87lmluibfaisem3bjcm3fg0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitesh.fileuploading",
+            "certificate_hash": "8f65b1b5ecf1eaa73e80503d577692ba70eca88b"
+          }
+        },
+        {
+          "client_id": "681762293476-sfvnrikui6noraot5gcm3p6r39elmt6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-nKXeE6-nbN7Q37UY8vZoZ0hjJ9CBTmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681762293476-sfvnrikui6noraot5gcm3p6r39elmt6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

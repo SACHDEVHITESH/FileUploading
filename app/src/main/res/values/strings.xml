@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FileUploading</string>
+    <string name="logout">Logout</string>
+    <string name="phoneQuestion">May I ask your phone number?</string>
+    <string name="phoneHint">Double Tap to detect the number or enter number using +91</string>
+    <string name="Continue">Continue</string>
+    <string name="Wait">Wait for the code I sent You</string>
+    <string name="otp">OTP</string>
+    <string name="signin">Sign In</string>
+    <string name="resend">Resend OTP</string>
+    <string name="upload">Upload File</string>
+    <string name="VIEW">File Library</string>
+    <string name="next">NEXT</string>
 </resources>
