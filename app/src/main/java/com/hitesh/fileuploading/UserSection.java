@@ -194,40 +194,6 @@ public class UserSection extends AppCompatActivity {
                 }
             }
         });
-
-
-
-
-
-
-
-
-
-
-//        sRef.putFile(data)
-//                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-//                    @SuppressWarnings("VisibleForTests")
-//                    @Override
-//                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-//                        progressBar.setVisibility(View.GONE);
-//
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception exception) {
-//                        Toast.makeText(getApplicationContext(), exception.getMessage(), Toast.LENGTH_LONG).show();
-//                    }
-//                })
-//                .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-//                    @SuppressWarnings("VisibleForTests")
-//                    @Override
-//                    public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-//                        double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
-//                        textViewStatus.setText((int) progress + "% Uploading...");
-//                    }
-//                });
-
     }
 
 

@@ -53,9 +53,6 @@ public class FileLibrary extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
 
         FileRef = FirebaseStorage.getInstance().getReference().child("users_database").child(userID);
-        //mRecyclerView = findViewById(R.id.recycler_view_s);
-//        mRecyclerView.setHasFixedSize(true);
-//        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         reference = FirebaseDatabase.getInstance().getReference().child("users_database").child(userID);
 
